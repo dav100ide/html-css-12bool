@@ -1,3 +1,19 @@
 /* framework 12 bool */
 @import url('12bool.css');
 @import url('12boolresponsive.css');
+
+/* project style */
+.box,
+.inner-box {
+   padding: 1rem;
+   color: white;
+}
+
+.box {
+   background-color: rgb(9, 102, 133);
+   border: 1px solid white;
+}
+
+.inner-box {
+   background-color: lightgreen;
+}
