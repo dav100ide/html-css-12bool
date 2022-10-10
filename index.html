@@ -8,7 +8,7 @@
       <link rel="stylesheet" href="css/style.css" />
    </head>
    <body>
-      <h1>Esercizio per Casa</h1>
+      <h2>Esercizio per Casa</h2>
       <div class="row">
          <div class="box col-1">1 col</div>
          <div class="box col-1">1 col</div>
@@ -22,6 +22,56 @@
          <div class="box col-1">1 col</div>
          <div class="box col-1">1 col</div>
          <div class="box col-1">1 col</div>
+         <div class="box col-2">col</div>
+         <div class="box col-5">col</div>
+         <div class="box col-5">col</div>
+         <div class="box col-12">12 col</div>
+         <div class="box col-8">8 col</div>
+         <div class="box col-2">2 col</div>
+         <div class="box col-2">2 col</div>
+         <!-- riga con i nested items -->
+         <div class="box col-6 row">
+            <div class="inner-box col-2">Nested 2 col</div>
+            <div class="inner-box col-2">Nested 2 col</div>
+            <div class="inner-box col-8">Nested 8 col</div>
+         </div>
+         <div class="box col-6 row">
+            <div class="inner-box col-6">Nested 6 col</div>
+            <div class="inner-box col-6">Nested 6 col</div>
+         </div>
+         <!-- /riga con i nested items -->
+      </div>
+      <br />
+      <div class="row">
+         <div class="box col-12"></div>
+         <div class="box col-1"></div>
+         <div class="box col-11"></div>
+         <div class="box col-2"></div>
+         <div class="box col-10"></div>
+         <div class="box col-3"></div>
+         <div class="box col-9"></div>
+         <div class="box col-4"></div>
+         <div class="box col-8"></div>
+         <div class="box col-5"></div>
+         <div class="box col-7"></div>
+         <div class="box col-6"></div>
+         <div class="box col-6"></div>
+      </div>
+      <br />
+      <h2>Offset</h2>
+      <!-- si potrebbe barare con flex-end... -->
+      <div class="row">
+         <div class="box col-1 col-offset-11"></div>
+         <div class="box col-2 col-offset-10"></div>
+         <div class="box col-3 col-offset-9"></div>
+         <div class="box col-4 col-offset-8"></div>
+         <div class="box col-5 col-offset-7"></div>
+         <div class="box col-6 col-offset-6"></div>
+         <div class="box col-7 col-offset-5"></div>
+         <div class="box col-8 col-offset-4"></div>
+         <div class="box col-9 col-offset-3"></div>
+         <div class="box col-10 col-offset-2"></div>
+         <div class="box col-11 col-offset-1"></div>
       </div>
    </body>
 </html>

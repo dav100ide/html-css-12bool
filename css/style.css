@@ -5,6 +5,7 @@
 /* project style */
 .box,
 .inner-box {
+   text-align: center;
    padding: 1rem;
    color: white;
 }
@@ -16,4 +17,5 @@
 
 .inner-box {
    background-color: lightgreen;
+   border: 1px solid rgb(9, 102, 133);
 }
